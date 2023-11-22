@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Frenzy a Melhor!</title>
+    <link rel="stylesheet" href="carrosel.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+       
+</head>
+
+<body>
+
+<!--barra de navegação INICIO-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <div class="mylogo">
+            <div class="wrapper">
+              <svg>
+                <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                  Frenzy
+                </text>
+              </svg>
+            </div>   
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Cardápio
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Pizzas</a></li>
+                  <li><a class="dropdown-item" href="#">Bebidas</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Histórico de Pedidos</a></li>
+                </ul>         
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+              </li> 
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="O que Procura?" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Procurar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--barra de navegação FIM-->
+
+
+<!--banner rotativo INICIO-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagens/BANNER_TOPO V1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/BANNER_TOPO V2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/BANNER_TOPO V3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+<!--banner rotativo FIM-->
+
+
+
+<!--SECTION INICIO-->
+<section>
+<div class="textopedido">
+ <div class="box"> <h1 id="boxpedido">Faça Seu Pedido Online!</h1></div>
+</div>
+
+<div class="pai">
+    <div class="card" style="width: 18rem;">
+        <img src="imagens/PIZZAcalabresa.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pizza Calabresa</h5>
+          <p class="card-text">Molho de tomate, mussarela e calabresa fatiada.</p>
+          <a href="#" class="btn btn-primary">+</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="imagens/PIZZAfrango.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pizza De Frango</h5>
+          <p class="card-text">Purê de batata com frango desfiado e mussarela.</p>
+          <a href="#" class="btn btn-primary">+</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="imagens/PIZZAparmegiana.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pizza Crocante</h5>
+          <p class="card-text">Molho de tomate, mussarela, presunto, bacon, milho, tomate, orégano e batata palha.</p>
+          <a href="#" class="btn btn-primary">+</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="imagens/PIZZAstrogonoff.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pizza de Strogonoff</h5>
+          <p class="card-text">Strogonoff de frango, mussarela e batata palha.</p>
+          <a href="#" class="btn btn-primary">+</a>
+        </div>
+      </div>
+</div>
+<hr id="linha">
+</section>
+<!--SECTION FIM-->
+
+
+<!--MAIN INICIO-->
+<main>
+<div class="contatos">
+<div class="dadosentrega"><div class="centraliza"><img src="imagens/ICONEdelivery-removebg-preview.png" alt="" id="imgentrega" width="100px" height="100px"></div>
+  <h1 id="textoentrega">Velocidade na entrega</h1>
+  <p class="descrição"></p> </div>
+
+<div class="dadoscheff"><div class="centraliza"><img src="imagens/ICONEcheff-removebg-preview.png" alt="" id="imgchef" width="100px" height="100px"></div>
+  <h1 id="textochef">Criado Por Chefs </h1>
+  <p class="descrição"></p> </div>
+
+<div class="dadosingredientes"><div class="centraliza"><img src="imagens/ICONEingredientes-removebg-preview.png" alt="" id="imgingredientes" width="100px" height="100px"></div>
+  <h1 id="textoingredientes">Qualidade dos Ingredientes</h1>
+  <p class="descrição"></p> </div>
+</div>
+</main>
+<!--MAIN FIM-->
+
+<hr id="linha">
+
+<!--ARTICLE INICIO-->
+<article>
+<div class="mybebida">
+  <div class="card mb-3" style="max-width: 540px;" >
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="imagens/LATApepsi.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Pepsi</h5>
+          <p class="card-text"></p>
+          <p class="card-text"><small class="text-muted">Lata 355ml</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="imagens/LATAguarana.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Fanta Berry</h5>
+          <p class="card-text"></p>
+          <p class="card-text"><small class="text-muted">Lata 355ml</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="imagens/LATAenergetico.PNG" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Energetico</h5>
+          <p class="card-text"></p>
+          <p class="card-text"><small class="text-muted">Lata 355ml</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="imagens/LATAfantaU.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Fanta Uva</h5>
+          <p class="card-text"></p>
+          <p class="card-text"><small class="text-muted">Lata 350ml</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="imagens/LATAsprit.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Sprit</h5>
+          <p class="card-text"></p>
+          <p class="card-text"><small class="text-muted">Lata 350ml</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="imagens/LATAcoca.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Coca-Cola</h5>
+          <p class="card-text"></p>
+          <p class="card-text"><small class="text-muted">Lata 350ml</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</article>
+<!--ARTICLE FIM-->
+
+<hr id="linha">
+
+<!--FOOTER INICIO-->
+<footer>
+<div class="textoendereço"> 
+  <p id="numero">Endereço</p>
+  <li id="lista">Rua.Paralera-Pia Gordo-PR</li>
+  <li id="lista">Av.das teclas-Pia Gordo-PR</li>
+  </div>
+  <div class="textorodape"> 
+    <p id="numero">Contatos</p>
+    <li id="lista">3567-3478</li>
+    <li id="lista">3847-5803</li>
+    </div>
+  <div class="horariofuncionamento"> 
+    <p id="numero">Horarios</p>
+    <li id="lista">De Segunda-feira a Sábado:Das 18:00 às 00:00</li>
+    </div>
+  </div>
+</footer>
+<!--FOOTER FIM-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+    </body>
+</html>
